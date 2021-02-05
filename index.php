@@ -14,7 +14,31 @@
 </head>
 
 <body>
+		
+        	<div class="cotainer-fluid">
+            	
+                <!-- aqui vai ficar o Menu-->
+                 <div class="row">
+                 		<div id="menu" class="col-12"> 
+                        	<nav>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Maculino</a></li>
+                    <li class="list-inline-item"><a href="#">Feminino</a></li>
+                    <li class="list-inline-item"><a href="#">Realidade Aumentada</a></li>
+                    <li class="list-inline-item"><a href="#">Smartwatches</a></li>
+                </ul>
+            </nav>
+                            
+                            
+                        </div>
+                 </div>
+            
+            </div>
 				
+
+
+
+
                 
                 
 
