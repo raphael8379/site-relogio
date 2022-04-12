@@ -14,27 +14,85 @@
 </head>
 
 <body>
-		
-        	<div class="cotainer-fluid">
-            	
-                <!-- aqui vai ficar o Menu-->
-                 <div class="row">
-                 		<div id="menu" class="col-12"> 
-                        	<nav>
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#">Maculino</a></li>
-                    <li class="list-inline-item"><a href="#">Feminino</a></li>
-                    <li class="list-inline-item"><a href="#">Realidade Aumentada</a></li>
-                    <li class="list-inline-item"><a href="#">Smartwatches</a></li>
-                </ul>
-            </nav>
-                            
-                            
+
+      <!-- Largura minima de 576 entra o col sm -->  
+      <!-- Largura minima 768px entra o md -->  
+      <!-- largura  minima 992 entra col lg  --> 
+      <!-- largura  minima 1200 entra col XL  --> 
+
+        <div class="container-fluid">   
+
+                <div class="row"> 
+                        
+                        <div class="col-sm-12 col-md-12" > 
+
+                        <div class="topnav">
+                        <a href="#">Logo</a>
+                        <a href="#">Relógios</a>
+                        <a href="#">Nosso Mundo</a>
+                        <a href="#">Boutiques</a>
                         </div>
-                 </div>
-            
-            </div>
-				
+                        
+                        </div>
+                </div>        
+
+                <div class="row">   
+                        <div class="col-sm-12 col-md-12" > 
+                          <div class="topo">
+                           <div class="relogio">   <img src="img/foto01.png" class="img-fluid" >   </div> 
+                           </div>  
+                        </div> 
+                </div>        
+                            
+                          
+                <div class="meio"> 
+                        
+                <h1 align="center" style="color:white;margin-bottom:100px;"> Explore os relógios </h1>     
+                
+                <div class="row"> 
+
+                       
+                 
+                        <div class="col">
+                          <img src="imagem/01.png" class="img-fluid" />  
+                         <figcaption class="figure-caption text-center">Legenda  centralizada.</figcaption>
+                         </div> 
+
+                         <div class="col" > 
+                         <img src="imagem/02.png" class="img-fluid" />  
+                         <figcaption class="figure-caption text-center">Legenda  centralizada.</figcaption>
+                         </div> 
+                         
+
+                         <div class="col" > 
+                         <img src="imagem/03.png" class="img-fluid" />  
+                         <figcaption class="figure-caption text-center">Legenda  centralizada.</figcaption>
+                         </div> 
+                         
+
+                         <div class="col" > 
+                         <img src="imagem/04.png" class="img-fluid" />  
+                         <figcaption class="figure-caption text-center">Legenda  centralizada.</figcaption>
+                         </div>
+                    
+                  
+                </div>        <!-- fecha ROW --> 
+
+                </div>     <!-- fecha div Meio --> 
+
+
+                <div class="row">
+                        <div class="col-sm-12 col-md-12"> 
+
+                        
+                        </div>
+                </div>
+
+             
+
+
+        </div>   <!-- Fim container Fluid-->  
+
 
 
 
