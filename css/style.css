@@ -1,8 +1,66 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*  
+
+topo - imagem principal da pantera
+relogio - relogio que fica no topo
+meio - carrossel de imagem dos relogios
+video - video 
+inferior - coloca mais duas imagens 
+rodape - rodape
+
+
+*/
+
 *{ margin:0; padding:0; }
 
 html { scroll-behavior: smooth;}
 
-.topo{ width:100%; height:100%; background-image:url(../img/pantera.png); background-repeat: no-repeat;  }
+
+/* -----------------------------------------  Menu --------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #FFF;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    
+  }
+  
+  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
+/* --------------------------------------------  Topo------------------------------------------------------- */
+
+
+.topo{ width:100%; height:500px;  background-image: url(../img/pantera.png); background-repeat: no-repeat;
+    background-size: cover;    }
+.relogio { max-height: 500px; width: 500px; overflow:hidden; float: right;}    
+.meio {width:100%; height:auto; background-color: #171717; padding:100px; margin-top: 1px;  }
+
+
